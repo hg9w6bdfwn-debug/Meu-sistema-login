@@ -1,0 +1,142 @@
+import os
+import platform
+import sys
+import time
+
+# Banco de dados simulado
+USUARIOS_CADASTRADOS = {
+    "ios_user": "apple2026",
+    "admin": "1234"
+}
+
+def limpar_tela():
+    if platform.system() == "Windows":
+        os.system("cls")
+    else:
+        os.system("clear")
+
+def painel_de_controle(usuario):
+    """Esta funC'C#o roda apenas se o login der certo"""
+    while True:
+        limpar_tela()
+        print("=" * 40)
+        print(f"      PAINEL DE CONTROLE iOS - {usuario.upper()}      ")
+        print("=" * 40)
+        print("1. Verificar Status dos Servidores")
+        print("2. Listar Dispositivos Conectados")
+        print("3. Logs do Sistema")
+        print("4. Fazer Logoff (Sair)")
+        print("-" * 40)
+        
+        opcao = input("Escolha uma opC'C#o: ").strip()
+        
+        if opcao == "1":
+            print("\n[ STATUS ]: Todos os servidores estC#o ONLINE.")
+            input("\nPressione Enter para voltar ao menu...")
+        elif opcao == "2":
+            print("\n[ DISPOSITIVOS ]: iPhone 15 Pro, iPad Air, Mac Studio.")
+            input("\nPressione Enter para voltar ao menu...")
+        elif opcao == "3":
+            print("\n[ LOG ]: Cltimo login bem-sucedido C s " + time.strftime("%H:%M:%S"))
+            input("\nPressione Enter para voltar ao menu...")
+        elif opcao == "4":
+            print("\nSaindo do painel de controle...")
+            time.sleep(1.5)
+            break
+        else:
+            print("\n[ OpC'C#o InvC!lida! ] Tente novamente.")
+            time.sleep(1)
+
+def executar_login_mobile():
+    limpar_tela()
+    print("=" * 30)
+    print("    MOBILE iOS LOGIN CLI    ")
+    print("=" * 30)
+    
+    tentativas = 3
+    
+    while tentativas > 0:
+        usuario = input("Digite o UsuC!rio: ").strip().lower()
+        senha = input("Digite a Senha: ").strip()
+        
+        limpar_tela()
+        
+        if usuario in USUARIOS_CADASTRADOS and USUARIOS_CADASTRADOS[usuario] == senha:
+            print("\n[b            time.sleep(1.5)
+            return usuario  # Retorna o nome do usuC!rio para sabermos quem logou
+        else:
+            tentativas -= 1
+            print("\n[X] Credenciais incorretas.")
+            if tentativas > 0:
+                print(f"VocC* tem mais {tentativas} tentativa(s).\n")
+                print("-" * 30)
+            else:
+                print("\n[Aviso] Muitas tentativas falhas. Encerrando...")
+                time.sleep(2)
+                sys.exit()
+    return None
+
+if __name__ == "__main__":
+    # Captura o usuC!rio que fez o login com sucesso
+    usuario_logado = executar_login_mobile()
+    
+    if usuario_logado:
+        print("Carregando o painel de controle do iOS...")
+        time.sleep(2)  # Simula um efeito de carregamento antes de entrar
+        
+        # Redireciona para o painel de controle interno
+        painel_de_controle(usuario_logado)
+        
+    print("\nPrograma encerrado de forma segura.")import os
+import platform
+import sys
+import time
+
+# Banco de dados simulado
+USUARIOS_CADASTRADOS = {
+    "ios_user": "apple2026",
+    "admin": "1234"
+}
+
+def limpar_tela():
+    # Detecta o sistema e limpa a tela do terminal mobile
+    if platform.system() == "Windows":
+        os.system("cls")
+    else:
+        os.system("clear")
+
+def executar_login_mobile():
+    limpar_tela()
+    print("=" * 30)
+    print("    MOBILE iOS LOGIN CLI    ")
+    print("=" * 30)
+    
+    tentativas = 3
+    
+    while tentativas > 0:
+        usuario = input("Digite o UsuC!rio: ").strip()
+        
+        # Como o getpass falha no iOS, usamos o input normal, 
+        # mas limpamos a tela logo em seguida por seguranC'a.
+        senha = input("Digite a Senha: ").strip()
+        
+        # Limpa as credenciais da tela imediatamente apC3s digitar
+        limpar_tela()
+        
+        if usuario in USUARIOS_CADASTRADOS and USUARIOS_CADASTRADOS[usuario] == senha:
+            print("\n[b            return True
+        else:
+            tentativas -= 1
+            print("\n[X] Credenciais incorretas.")
+            if tentativas > 0:
+                print(f"VocC* tem mais {tentativas} tentativa(s).\n")
+                print("-" * 30)
+            else:
+                print("\n[Aviso] Muitas tentativas falhas. Encerrando...")
+                time.sleep(2)
+                sys.exit()
+
+if __name__ == "__main__":
+    executar_login_mobile()
+    print("Carregando o painel de controle do iOS...")
+

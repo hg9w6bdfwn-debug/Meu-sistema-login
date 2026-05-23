@@ -1,0 +1,183 @@
+git init
+git add p.py
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hg9w6bdfwn-debug/Meu-sistema-login.git
+git push -u origin main
+git config --global user.email "seu_email@exemplo.com"
+git config --global user.name "hg9w6bdfwn-debugb
+
+echo "print('Ola Mundo')" > p.py
+git config --global user.email "guilhermecardeal1342@gmail.com"
+echo "print('Ola Mundo')" > p.py
+git add p.py
+git commit -m "first commit"
+git push -u origin main
+import os
+import platform
+import sys
+import time
+# Banco de dados simulado
+USUARIOS_CADASTRADOS = {
+    "ios_user": "apple2026",
+    "admin": "1234"
+}
+def limpar_tela():
+    # Detecta o sistema e limpa a tela do terminal mobile
+    if platform.system() == "Windows":
+        os.system("cls")
+    else:
+        os.system("clear")
+def executar_login_mobile():
+    limpar_tela()
+    print("=" * 30)
+    print("    MOBILE iOS LOGIN CLI    ")
+    print("=" * 30)
+    
+    tentativas = 3
+    
+    while tentativas > 0:
+        usuario = input("Digite o UsuC!rio: ").strip()
+        
+        # Como o getpass falha no iOS, usamos o input normal, 
+        # mas limpamos a tela logo em seguida por seguranC'a.
+        senha = input("Digite a Senha: ").strip()
+        
+        # Limpa as credenciais da tela imediatamente apC3s digitar
+        limpar_tela()
+        
+        if usuario in USUARIOS_CADASTRADOS and USUARIOS_CADASTRADOS[usuario] == senha:
+            print("\n[b            return True
+        else:
+            tentativas -= 1
+            print("\n[X] Credenciais incorretas.")
+            if tentativas > 0:
+                print(f"VocC* tem mais {tentativas} tentativa(s).\n")
+                print("-" * 30)
+            else:
+                print("\n[Aviso] Muitas tentativas falhas. Encerrando...")
+                time.sleep(2)
+                sys.exit()
+if __name__ == "__main__":
+    executar_login_mobile()
+    print("Carregando o painel de controle do iOS...")
+apk add nano
+nano longi.python
+git add longi.python
+git commit -m "Adicionando o script de login"
+git push
+nano index.html
+git add index.html
+git commit -m "adicionando interface web do sistema de login"
+git push
+git push longi.python
+git push 
+git push origin main
+git add
+Git commit -m b
+nano longi.python
+git add longi.python
+git commit -m "adicionando script de login mobbile"
+find / -name "longi.python" 2>/dev/null
+cp /caminho_que_apareceu/longi.python .
+cp /root/longi.python .
+git add longi.python
+git commit -m "adicionando script de login mobille"
+git push origin main
+git status
+cp /root/longi.python .
+ls
+giapk add git python3 openssh
+git init
+git add p.py
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hg9w6bdfwn-debug/Meu-sistema-login.git
+git push -u origin main
+git config --global user.email "seu_email@exemplo.com"
+git config --global user.name "hg9w6bdfwn-debugb
+
+echo "print('Ola Mundo')" > p.py
+git config --global user.email "guilhermecardeal1342@gmail.com"
+echo "print('Ola Mundo')" > p.py
+git add p.py
+git commit -m "first commit"
+git push -u origin main
+import os
+import platform
+import sys
+import time
+# Banco de dados simulado
+USUARIOS_CADASTRADOS = {
+    "ios_user": "apple2026",
+    "admin": "1234"
+}
+def limpar_tela():
+    # Detecta o sistema e limpa a tela do terminal mobile
+    if platform.system() == "Windows":
+        os.system("cls")
+    else:
+        os.system("clear")
+def executar_login_mobile():
+    limpar_tela()
+    print("=" * 30)
+    print("    MOBILE iOS LOGIN CLI    ")
+    print("=" * 30)
+    
+    tentativas = 3
+    
+    while tentativas > 0:
+        usuario = input("Digite o UsuC!rio: ").strip()
+        
+        # Como o getpass falha no iOS, usamos o input normal, 
+        # mas limpamos a tela logo em seguida por seguranC'a.
+        senha = input("Digite a Senha: ").strip()
+        
+        # Limpa as credenciais da tela imediatamente apC3s digitar
+        limpar_tela()
+        
+        if usuario in USUARIOS_CADASTRADOS and USUARIOS_CADASTRADOS[usuario] == senha:
+            print("\n[b            return True
+        else:
+            tentativas -= 1
+            print("\n[X] Credenciais incorretas.")
+            if tentativas > 0:
+                print(f"VocC* tem mais {tentativas} tentativa(s).\n")
+                print("-" * 30)
+            else:
+                print("\n[Aviso] Muitas tentativas falhas. Encerrando...")
+                time.sleep(2)
+                sys.exit()
+if __name__ == "__main__":
+    executar_login_mobile()
+    print("Carregando o painel de controle do iOS...")
+apk add nano
+nano longi.python
+git add longi.python
+git commit -m "Adicionando o script de login"
+git push
+nano index.html
+git add index.html
+git commit -m "adicionando interface web do sistema de login"
+git push
+git push longi.python
+git push 
+git push origin main
+git add
+Git commit -m b
+nano longi.python
+git add longi.python
+git commit -m "adicionando script de login mobbile"
+find / -name "longi.python" 2>/dev/null
+cp /caminho_que_apareceu/longi.python .
+cp /root/longi.python .
+git add longi.python
+git commit -m "adicionando script de login mobille"
+git push origin main
+git status
+cp /root/longi.python .
+ls
+git add longi.python
+git commit -m "adicionado script de login mobille"
+nano longi.python
+git add .
